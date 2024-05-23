@@ -7,6 +7,7 @@ This repository contains the source code for a simple yet functional calculator 
 > User-Friendly Interface: Large buttons and a clear display for easy interaction.
 
  ### **Screenshots**
+![calculator](https://github.com/janani06rajendran/CalculatorCalculator-Web-Application-Web-Application/assets/140250422/93cf45ed-e964-4d03-b45e-e6c3e86a00ec)
 
  ### **Technologies Used**
 > HTML: Structure of the calculator.
