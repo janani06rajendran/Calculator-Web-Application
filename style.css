@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a9d9fd;
+    font-family: sans-serif ;
+     box-shadow: inset 10px 10px 20px black, 5px 5px 12px rgba(0, 0, 0, .16);
+     outline: none; /* no box shape for buttons*/
+}
+.container{
+height: 100vh; /*full height of display*/
+display: flex;
+justify-content: center; /*horizontal center display*/
+align-items: center;/*verticle center display*/
+} 
+.calculator{
+    background-color:#DDA0DD;
+    padding: 15px; /* gap b/w buttons*/
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px black,5px 5px 12px rgba(0,0, 0, .16);
+display:grid; /* buttons in one by one */
+grid-template-columns: repeat( 4,68px); /* 4 columns and 70px gap*/
+
+}
+input{
+    grid-column: span 4; /* the input screen takeup the space occupy 4 column space*/
+height :70px;
+width:260px;
+background-color:#fad4e7;
+box-shadow: inset -5px -5px 12px ,inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+border: none;
+border-radius: 30px;
+color:rgb(70, 70, 70);
+font-size: 50px;
+ text-align: right; /* text left from right -0*/
+ margin: auto; /*the whole imput sscreen moved to a bit righyt */
+margin-top:40px ;/* input screen top space */
+margin-bottom:30px ;
+padding:20px; /* the zero was so close to right to make a little away from maringe*/
+
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: rgb(255, 245, 245);
+    box-shadow: -5px -5px 12px black ,5px 5px 12px rgba(8, 7, 7, 0.16);
+    border: none;
+    border-radius: 50%;/*buttom square shape to round shape*/
+margin: 8px;
+    /* button  space */
+    font-size: 16px;
+
+}
+.equal{
+    width: 115px;
+    border-radius:40px;
+    background-color: #ecf0f3;
+    box-shadow: -5px -5px 12px black, 5px 5px 12px rgba(0, 0, 0, 0.16);
+
+}
