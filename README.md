@@ -7,7 +7,7 @@ This repository contains the source code for a simple yet functional calculator 
 > User-Friendly Interface: Large buttons and a clear display for easy interaction.
 
  ### **Screenshots**
-
+![
  ### **Technologies Used**
 HTML: Structure of the calculator.
 CSS: Styling and layout of the calculator.
